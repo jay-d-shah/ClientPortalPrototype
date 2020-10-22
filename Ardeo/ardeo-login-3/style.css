@@ -1,0 +1,89 @@
+html .text-primary {
+    color: #4d90e0 !important;
+}
+
+.btn.btn-primary {  
+    background: #4d90e0 !important;
+  border: none !important;
+}
+.form-group .checkbox span {
+  background-color: #fff !important;
+  transition: all 250ms ease-in-out;
+}
+
+.form-group .checkbox input:checked + span {
+  background-color: #17ad45 !important;
+}
+
+.form-group i {  
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  font-size: 1.3em;
+  width: 16px;
+}
+
+.form-group:before {
+  content: "\f00c";
+  position: absolute;
+  color: #17ad45;
+  font-family: 'FontAwesome';
+  font-size: 2em;
+  z-index: -1;
+  opacity: 0;
+  top: 20px;
+  left: 10px;
+  transition: all 250ms ease-in-out;
+}
+
+.form-group.has-success:before {
+  z-index: 1;
+  opacity: 0.8;
+  top: 20px;
+  left: -11px;  
+}
+
+.form-group.has-danger:before {
+  content: "\f06a";
+  color: #fa5757;
+  z-index: 1;
+  opacity: 0.8;
+  top: 20px;
+  left: -11px;  
+}
+
+.form-control:valid {
+  background-image: none !important;  
+}
+
+.form-control:invalid {
+  background-image: none !important;  
+}
+
+.fv-plugins-message-container { 
+  display: none; 
+}
+
+.form-group.fv-plugins-icon-container .form-control + label { 
+  position: absolute;
+  z-index: 3;
+  top: 26px;
+  left: 21px;
+  font-size: 1.48em !important;
+  letter-spacing: 0.12em;
+  transition: all 200ms ease-in-out;
+  opacity: 1;
+}
+
+.form-group .form-control:focus + label, 
+.form-group .form-control:active + label, 
+.form-group .form-control:not(:placeholder-shown) + label {
+  top: 10px;
+  font-size: 1.1em !important;  
+  opacity: 0.7;
+}
+
+.form-group .form-control { 
+  color: #474646 !important;
+  font-weight: 600;
+}

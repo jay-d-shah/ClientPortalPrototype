@@ -1,0 +1,104 @@
+html, body { 
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+body { 
+  background-image: url('https://i.imgur.com/oCJp7mg.jpg') !important;
+}
+
+.logo-container h1 { 
+  font-weight: 400;
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: 37px;
+  font-size: 4em;
+  letter-spacing: 6px;
+  margin: 0;
+}
+
+.logo-container h2 { 
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.37em;
+}
+
+.menu-link .fa.fa-chevron-down { 
+    display: flex;
+    width: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.space-between {  
+  justify-content: space-between;
+}
+
+.svg-icon-3x .fa { 
+  font-size: 2em;
+}
+
+.btn.btn-success { 
+  background: #12986d !important;
+  border: none !important;
+}
+
+.bg-radial-gradient-info {
+    background-color: #2d74d2 !important;
+    background-image: radial-gradient(circle, rgba(225, 233, 255, 0.4), #2d74d2 70%);
+}
+
+.card .bg-radial-gradient-success, .card.bg-radial-gradient-success {
+    background-color: #12986d !important;
+    background-image: radial-gradient(circle, rgba(225, 233, 255, 0.4), #12986d 70%) !important;;
+}
+
+#kt_header_menu_wrapper .menu-text { 
+    font-weight: 600;
+    font-size: 1.05em;
+    letter-spacing: 0.03em;
+}
+
+.text-green {  
+  color: #12986d !important;
+}
+
+.btn-light-success {  
+  background: #12986d !important;
+  color: #fff !important;
+}
+
+.card.bg-success, .card .bg-success { 
+  background: #12986d !important;
+}
+
+.text-cap {  
+  text-transform: uppercase !important;
+}
+
+.font-size-h1-xlg { 
+  font-size: 3em !important;
+}
+
+.font-size-h1-xxlg { 
+  font-size: 4em !important;
+}
+
+.lh-45 { 
+  line-height: 45px; 
+}
+
+.lh-20 {
+  line-height: 20px;  
+} 
+
+p a { 
+  color: #12986d !important;
+}
+
+div.font-weight-boldest {
+    font-weight: 700 !important;
+}
+
+.br-0 {
+  border-radius: 0 !important;
+}

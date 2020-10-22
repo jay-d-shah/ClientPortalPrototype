@@ -1,0 +1,126 @@
+h1, h2, h3, p, input { 
+  font-family: 'Source Sans Pro', sans-serif;   
+  }
+
+html .font-weight-bold {  
+  font-weight: 600 !important;
+}
+
+.login-header { 
+  font-weight: 300;
+  font-size: 5em;
+  letter-spacing: 0.09em;
+  line-height: 50px;
+}
+
+.login-subheader { 
+  font-weight: 300;
+  letter-spacing: 0.07em;
+}
+
+.form-header { 
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.form-wrapper { 
+ background: rgb(242 242 242 / 0.9);
+}
+
+.form-group .checkbox span {
+  background-color: #fff !important;
+  transition: all 250ms ease-in-out;
+}
+
+.form-group .checkbox input:checked + span {
+  background-color: #17ad45 !important;
+}
+
+.form-group i {  
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  font-size: 1.3em;
+  width: 16px;
+}
+
+.form-group.has-danger i {
+  color: #fa5757;
+}
+
+.form-group.has-success i {
+  color: #17ad45 !important;
+}
+
+.form-control:valid {
+  background-image: none !important;  
+}
+
+.login-warning {  
+  display: none;
+  position: absolute;
+  top: -20px;
+  width: 100%;
+}
+
+.form-group.has-danger .login-warning {  
+  display: block;
+}
+
+.fv-plugins-message-container { display: none; }
+
+.br-0 { 
+  border-radius: 2px !important;
+}
+
+.text-gray { 
+  color: #7e7e7e !important;
+}
+
+.text-darkgray { 
+  color: #484848;
+}
+
+.text-green { 
+  color: #17ad45 !important;
+}
+
+.text-red { 
+  color: #fa5757;
+}
+
+.swal2-icon.swal2-success [class^=swal2-success-line], .bg-green {
+  background: #17ad45 !important;
+}
+.swal2-icon.swal2-success .swal2-success-ring { border-color: #17ad45 !important; }
+
+.form-group.fv-plugins-icon-container .form-control + label { 
+  position: absolute;
+  z-index: 3;
+  top: 13px;
+  left: 45px;
+  font-size: 1.1em !important;
+  letter-spacing: 0.12em;
+  transition: all 200ms ease-in-out;
+}
+
+.form-group .form-control:focus + label, 
+.form-group .form-control:active + label, 
+.form-group .form-control:not(:placeholder-shown) + label {
+  top: 3px;
+  font-size: .9em !important;  
+}
+
+.form-group .form-control { 
+  color: #474646 !important;
+  font-weight: 600;
+}
+
+button, a { 
+  transition: all 250ms ease-in-out !important;
+  opacity: 1;
+}
+
+button:hover, a:hover { 
+  opacity: 0.6;
+}
