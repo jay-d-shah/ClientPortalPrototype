@@ -2,6 +2,10 @@ html .text-primary {
     color: #4d90e0 !important;
 }
 
+.login-aside {
+  background: #dddddd;
+}
+
 .btn.btn-primary {  
     background: #4d90e0 !important;
   border: none !important;
@@ -86,4 +90,8 @@ html .text-primary {
 .form-group .form-control { 
   color: #474646 !important;
   font-weight: 600;
+}
+
+.font-weight-light { 
+  font-weight: 400 !important;
 }
