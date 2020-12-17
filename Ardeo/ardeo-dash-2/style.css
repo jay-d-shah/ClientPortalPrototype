@@ -29,8 +29,10 @@ body {
     align-items: center;
 }
 
-.header-menu-wrapper {
-  height: 70px !important;
+@media (min-width: 992px) { 
+    .header-menu-wrapper {
+    height: 70px !important;
+  }
 }
 
 .header-menu .menu-nav > .menu-item.menu-item-here > .menu-link, .header-menu .menu-nav > .menu-item.menu-item-active > .menu-link {
@@ -60,6 +62,11 @@ body {
     background-color: #2d74d2 !important;
     background-image: radial-gradient(circle, rgba(225, 233, 255, 0.4), #2d74d2 70%);
 }
+
+.card.card-custom.no-bg { 
+  background: none;
+  box-shadow: none;
+ }
 
 .card .bg-radial-gradient-success, .card.bg-radial-gradient-success {
     background-color: #12986d !important;
