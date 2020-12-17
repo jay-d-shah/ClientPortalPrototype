@@ -190,6 +190,7 @@ div.font-weight-boldest {
 .cd-testimonials {
   color: #39393c;
   text-align: center;
+  list-style-type: none;
 }
 .cd-testimonials::after {
   clear: both;
